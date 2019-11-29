@@ -25,7 +25,7 @@ SECRET_KEY = 'zoywqmo46(f4_06ym7%q=^4-=sw$*fczj=z=*-1dv!0s9ohg)b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'helloworld_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r"D:\DjangoLearnings\djangoproject2\helloworld_project\templates"], # new
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

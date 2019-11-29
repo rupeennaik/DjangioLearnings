@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <a href="{% url 'Home' %}">Home</a> | <a href="{% url 'AboutUs' %}">About Us</a>
+      {% block content %}
+      {% endblock content%}
+
+    </header>
+  </body>
+</html>
